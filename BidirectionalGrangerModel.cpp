@@ -11,6 +11,8 @@ using namespace std;
 /*Sender = Population 2 = Alpha oscillations*/
 /*Receiver = Population 1 = Gamma oscillations*/
 
+/*The indexes from 0 to 399 stand for excitatory neurons and from 400-499 for inhibitory*/
+
 #define dt 0.05 /*step of integration ms*/
 #define gES 0.8 /*Sender internal excitatory synaptic weight (ns)*/
 #define gIS 16.4 /*Sender internal inhibitory synaptic weight (ns)*/
