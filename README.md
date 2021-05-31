@@ -9,7 +9,9 @@ The code can be compiled as:
 *g++ BidirectionalGrangerModel.cpp -O3 -march=native -o exec*
 
 In order to execute run:
+
 *./exec 123456*
+
 *123456* is the random number seed, you can use whatever integer number here.
 
 The code will generate two outputs (text file):
