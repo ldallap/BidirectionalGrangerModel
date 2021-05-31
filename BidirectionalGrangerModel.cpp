@@ -54,6 +54,10 @@ int main(int argc, char *argv[]){
   sprintf(datamempotential,"FeedBackFeedForward_MeanMemPot_gES%.3lf_gIS%.3lf_gER%.3lf_gIR%.3lf_gSR%.3lf_gRS%.3lf_seed%ld.mp",gES,gIS,gER,gIR,gSR,gRS,seed);
   sprintf(dataspikes,"SpikeTrain_FeedBackFeedForward_gES%.3lf_gIS%.3lf_gER%.3lf_gIR%.3lf_gSR%.3lf_gRS%.3lf_seed%ld.st",gES,gIS,gER,gIR,gSR,gRS,seed);
 
+	
+   /*Warm up*/
+   for(int i=0;i<100000;i++) double auxseed=ran2(&seed);
+
   /*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
   /*&&                    CONNECTIVITY MATRIX                   &&*/
   /*&&*/int neigh_send_internal[500][50];
