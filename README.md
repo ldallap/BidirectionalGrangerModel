@@ -20,5 +20,6 @@ The code will generate two outputs (text file):
 File #1 is composed of three columns: 1st) time (ms); 2nd) LFP from Pop2 (alpha oscillations); 3rd) LFP from Pop1 (gamma oscillations)
 File #2 is composed of 200 columns where each column is a binary spike train for different neurons. Columns from 1-100 stands for neurons in Pop2 and from 101-200 for neurons in Pop1. Each line corresponds to one step of simulation.
 
+Tested in: gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
 
 Contact: leonardodallaporta@gmail.com
