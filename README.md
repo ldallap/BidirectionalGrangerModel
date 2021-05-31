@@ -8,8 +8,7 @@ In order to generate the simulated LFP (Local Field Potential) and the 10-s long
 The code can be compiled as:
 *g++ BidirectionalGrangerModel.cpp -O3 -march=native -o exec*
 
-In order to execute run:
-
+In order to execute, run:
 *./exec 123456*
 
 *123456* is the random number seed, you can use whatever integer number here.
