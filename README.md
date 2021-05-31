@@ -8,6 +8,10 @@ In order to generate the simulated LFP (Local Field Potential) and the 10-s long
 The code can be compiled as:
 *g++ BidirectionalGrangerModel.cpp -O3 -march=native -o exec*
 
+In order to execute run:
+*./exec 123456*
+*123456* is the random number seed, you can use whatever integer number here.
+
 The code will generate two outputs (text file):
 1) FeedBackFeedForward_MeanMemPot_PARAMETERDESCRIPTION.mp 
 2) SpikeTrain_FeedBackFeedForward_PARAMETERDESCRIPTION.st
