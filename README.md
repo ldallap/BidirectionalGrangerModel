@@ -1,6 +1,12 @@
 # BidirectionalGrangerModel
 
-This repository is part of the paper: XXX
+This repository is part of the paper: Feedforward and feedback influences through distinct frequency bands between two spiking-neuron networks, by: Leonardo Dalla Porta, Daniel M. Castro, Mauro Copelli, Pedro V. Carelli, and Fernanda S Matias.
+
+arXiv: https://arxiv.org/abs/2106.05783
+
+Whenever this code is used, please cite de aforomentioned paper.
+
+########
 
 The code is implemeted in c++ language.
 In order to generate the simulated LFP (Local Field Potential) and the 10-s long spike-trains run the code *BidirectionalGrangerModel.cpp*
