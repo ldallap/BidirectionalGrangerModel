@@ -4,7 +4,7 @@ This repository is part of the paper: Feedforward and feedback influences throug
 
 arXiv: https://arxiv.org/abs/2106.05783
 
-Whenever this code is used, please cite de aforomentioned paper.
+Whenever this code is used, please cite the aforomentioned paper.
 
 ########
 
