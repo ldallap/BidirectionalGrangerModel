@@ -3,6 +3,7 @@
 This repository is part of the paper: Feedforward and feedback influences through distinct frequency bands between two spiking-neuron networks, by: Leonardo Dalla Porta, Daniel M. Castro, Mauro Copelli, Pedro V. Carelli, and Fernanda S Matias.
 
 Physical Review E: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.104.054404
+
 arXiv: https://arxiv.org/abs/2106.05783
 
 
